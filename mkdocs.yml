@@ -10,8 +10,6 @@ markdown_extensions:
     
 plugins:
   - search
-  - pdf-export:
-      verbose: true
  
 nav:
   - Getting Started: index.md

@@ -3,9 +3,6 @@ build:
   tools:
     python: "3.11"
 
-apt_packages:
-  - wkhtmltopdf
-
 python:
   install:
     - requirements: requirements.txt

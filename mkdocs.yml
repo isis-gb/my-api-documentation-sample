@@ -1,0 +1,32 @@
+site_name: Getting Started with the Ma Radio Groove API
+
+docs_dir: docs
+site_dir: site
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+      
+
+plugins:
+  - search
+
+
+nav:
+  - Getting Started: index.md
+  - Introduction: introduction.md
+  - Authentication: authentication.md
+  - API Reference and Endpoints: api-reference-endpoints.md
+  - 'Use Case: How to Access DJ Mixes': use-case.md
+  - Troubleshooting: troubleshooting.md
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+
+extra_css:
+  - styles/pdf.css
+

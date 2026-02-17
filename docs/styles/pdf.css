@@ -1,0 +1,56 @@
+/* ----------------------------- */
+/* Cover page styling */
+/* ----------------------------- */
+
+/* Apply to any heading with class "cover" */
+.cover h1, .cover h2, .cover h3 {
+    text-align: center;       /* Center the text */
+    margin-top: 40vh;         /* Vertically center roughly halfway down the page */
+}
+
+/* Cover page title */
+.cover h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+/* Cover page subtitle */
+.cover h2 {
+    font-size: 28px;
+    font-weight: normal;
+}
+
+/* Cover page logo */
+.cover img {
+    display: block;
+    margin: 20px auto;    /* Center horizontally and add top/bottom spacing */
+    max-width: 200px;     /* Limit width so 500x500 logo is resized */
+    height: auto;         /* Keep aspect ratio */
+
+
+/* ----------------------------- */
+/* Standard PDF styling */
+/* ----------------------------- */
+
+/* Start each main page on a new PDF page */
+h1 {
+  page-break-before: always;
+}
+
+/* Prevent awkward page breaks after headings */
+h1, h2, h3 {
+  page-break-after: avoid;
+}
+
+/* Improve code block wrapping */
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+/* Remove navigation elements in PDF */
+.md-sidebar,
+.md-footer,
+.md-header {
+  display: none;
+}
